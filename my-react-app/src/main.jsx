@@ -16,6 +16,7 @@ import ModalTest from './components/11.Custom-modal-popup/modal-test'
 import GithubProfileFinder from './components/12.github-profile-finder'
 import SearchAutocomplete from './components/13.search-autocomplete-with-api'
 import TicTacToe from './components/14.TicTacToe'
+import UseFetchHookTest from './components/16.Use-Fetch-Hook/test'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -35,7 +36,9 @@ createRoot(document.getElementById('root')).render(
     {/*<ModalTest></ModalTest>*/}
     {/*<GithubProfileFinder></GithubProfileFinder>*/}
     {/*<SearchAutocomplete></SearchAutocomplete>*/}
-    <TicTacToe></TicTacToe>
+    {/*<TicTacToe></TicTacToe>*/}
+    <UseFetchHookTest></UseFetchHookTest>
+    
 
   </StrictMode>,
 )
